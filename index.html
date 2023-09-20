@@ -1,257 +1,229 @@
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aditya Jha Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/f488ba4bb9.js" crossorigin="anonymous"></script>
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css">
 
-<body>
+  </head>
+  <body>
+    <div class="main" id="main">
 
-  <div id="header">
+      <nav class="nav">
+        <div>
+          <h1>
+            <span style="color: #4d97eb">P</span>ortfolio
+          </h1>
+          <ul id="sidemenu">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+          </ul>
+        </div>
 
-    <div class="container">
-      <nav>
-        <h1 class="my_name"><span style="color: red;">P</span>ortfolio</h1>
-        <ul id="sidemenu">
-          <li><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#project">Project</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <i class="fa-sharp fa-solid fa-xmark fas" onclick="closemenu()"></i>
-        </ul>
-        <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+        <div class="contact-and-switch-div">
+          <a class="contact btn" href="#footer">Contact</a>
+          <label class="switch">
+            <input class="checkbox" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <i class="close-btn ri-close-circle-line"></i>
+          <i class="menu-btn ri-menu-line"></i>
+        </div>
+        
       </nav>
+      
+      <section id="header" class="container">
 
-      <div class="header-text">
-        <h1>Hi, I'm <span style="color: red;">Adi</span>tya Jha</h1>
-        <p>Aspiring Front-End Developer</p>
-      </div>
+        <div class="header-body">
+          <h1>I'm <span style="color: #4d97eb;">Adi</span>tya Jha</h1>
+          <h3>Combine Creativity and Problem Solving to build quality website.</h3>
+          <h3>Passionate for technology and innovation. Eager to bring my skills and experience to a dynamic <br> and fast-paced work environment where I can continue to learn, grow, and make a meaningful contribution.</h3>
+        </div>
 
+        <div class="social-media">
+          <a class="btn" href="#works">My Works</a>
+          <a class="social-handle white-theme" href="https://github.com/git-AdityaJha"><i class="ri-github-fill"></i></a>
+          <a class="social-handle white-theme" href="https://www.linkedin.com/in/aditya-jha1/"><i class="ri-linkedin-box-fill"></i></a>
+          <a class="social-handle white-theme" href="https://leetcode.com/AdityaJha__/"><i class="ri-code-line"></i></a>
+        </div>
+        
+      </section>
+
+      <section id="works" class="container">
+        
+        <div class="title">
+          <h2 class="verticle-line">|</h2>
+          <h2>My Works</h2>
+        </div>
+        
+        <div class="work-container">
+
+          <div class="work">
+            <div class="image">
+              <img src="/images/Amazon Clone.png" alt="Amazon Clone">
+            </div>
+            <h3><a target=”_blank” href="https://git-adityajha.github.io/Amazon-Clone/">Amazon Clone - Responsive Design of Amazon Clone</a></h3>
+            <p>html</p>
+            <p>css</p>
+            <p>javascript</p>
+          </div>
+
+          <div class="work">
+            <div class="image">
+              <img src="/images/Note-Making WebApp'.png" alt="Note-making WebApp">
+            </div>
+            <h3><a target=”_blank” href="https://git-adityajha.github.io/Keeper/">Keeper - Responsive Design of Note-Making Website</a></h3>
+            <p>html</p>
+            <p>css</p>
+            <p>javascript</p>
+            <p>reactjs</p>
+          </div>
+
+          <div class="work">
+            <div class="image">
+              <img src="/images/JayKhay.png" alt="Restaurant Page">
+            </div>
+            <h3><a target=”_blank” href="https://git-adityajha.github.io/Jal-Khay/">JalKhay - Responsive Design of Restaurant Landing Page</a></h3>
+            <p>html</p>
+            <p>css</p>
+            <p>javascript</p>
+          </div>
+
+          <div class="work">
+            <div class="image">
+              <img src="/images/YoutubeClone.png" alt="Youtube Clone">
+            </div>
+            <h3><a target=”_blank” href="https://git-adityajha.github.io/Youtube-Clone/">Youtube Clone - Simple Responsive Design of Youtube Clone</a></h3>
+            <p>html</p>
+            <p>css</p>
+          </div>
+
+          <div class="work">
+            <div class="image">
+              <img src="/images/StonePaperScissor.png" alt="Stone Paper Scissor">
+            </div>
+            <h3><a target=”_blank” href="https://git-adityajha.github.io/Stone-Paper-Scissor/">Stone Paper Scissor - Simple Design of Stone Paper Scissor Game</a></h3>
+            <p>html</p>
+            <p>css</p>
+            <p>javascript</p>
+          </div>
+
+          <div class="work">
+            <div class="image">
+              <img src="/images/TicTacToe.png" alt="Tic Tac Toe">
+            </div>
+            <h3><a target=”_blank” href="https://git-adityajha.github.io/Tic-Tac-Toe/">Youtube Clone - Simple Responsive Design of Youtube Clone</a></h3>
+            <p>html</p>
+            <p>css</p>
+            <p>javascript</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="skills" class="container">
+
+        <div class="title">
+          <h2 class="verticle-line">|</h2>
+          <h2>Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+          <div class="skill">
+            <i class="ri-code-line"></i>
+            <h3>C++</h3>
+          </div>
+
+          <div class="skill">
+            <i class="ri-html5-fill"></i>
+            <h3>HTML</h3>
+          </div>
+
+          <div class="skill">
+            <i class="ri-css3-fill"></i>
+            <h3>CSS</h3>
+          </div>
+
+          <div class="skill">
+            <iconify-icon class="icon-js" icon="ri:javascript-fill"></iconify-icon>
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="skill">
+            <i class="ri-reactjs-fill"></i>
+            <h3>Reactjs</h3>
+          </div>
+
+          <div class="skill">
+            <i class="ri-github-fill"></i>
+            <h3>Git</h3>
+          </div>
+
+          <div class="skill">
+            <i class="ri-keyboard-box-fill"></i>
+            <h3>Touch Typing</h3>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="certificates" class="container">
+
+        <div class="title">
+          <h2 class="verticle-line">|</h2>
+          <h2>Certificates</h2>
+        </div>
+
+        <div class="certificates-container">
+
+          <div class="certificate">
+            <img src="images/Coursera.png" alt="Coursera">
+          </div>
+  
+          <div class="certificate">
+            <img src="images/HackerRank Basic.png" alt="hackerrank">
+          </div>
+  
+          <div class="certificate">
+            <img src="images/HackerRank Intermediate.png" alt="hackerrank">
+          </div>
+
+        </div>
+
+      </section>
+
+      <footer id="footer">
+        <div class="foot">
+          <div class="social-media">
+            <a class="social-handle" href="https://github.com/git-AdityaJha"><i class="ri-github-fill"></i></a>
+            <a class="social-handle" href="https://www.linkedin.com/in/aditya-jha1/"><i class="ri-linkedin-box-fill"></i></a>
+            <a class="social-handle" href="https://leetcode.com/AdityaJha__/"><i class="ri-code-line"></i></a>
+          </div>
+
+          <div class="number-mail">
+            <h3>+91 8360690119</h3>
+            <h3>adityakrjha111@gmail.com</h3>
+          </div>
+
+          <div class="copyright">
+            <i class="ri-copyright-line"></i>
+            <h3>ADITYA KUMAR JHA</h3>
+          </div>
+        </div>
+      </footer>
+      
     </div>
 
-  </div>
-
-  <!-- --------------ABOUT-------------- -->
-
-  <div id="about">
-
-    <div class="container">
-      <div class="row">
-        <div class="about-col-1">
-          <img src="images/IamNotRobot.jpg" alt="">
-        </div>
-        <div class="about-col-2">
-          <h3 class="sub-title">About Me</h3>
-          <p>Passionate for technology and innovation. Eager to bring my skills and experience to a dynamic and
-            fast-paced work environment where I can continue to learn, grow, and make a meaningful contribution.</p>
-
-          <div class="tab-titles">
-            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-            <p class="tab-links" onclick="opentab('achievement')">Achievement</p>
-            <p class="tab-links" onclick="opentab('education')">Education</p>
-          </div>
-
-          <div class="tab-contents active-tab" id="skills">
-            <ul>
-
-              <li><span>Languages</span><br>C, C++, Html, Css, Javascript</li>
-              <li><span>Framework</span><br>Bootstrap, React.js</li>
-              <li><span>Technologies</span><br>VS Code, Git, Github</li>
-              <li><span>Touch Typing</span><br>90 Words Per Minute Average Speed</li>
-
-            </ul>
-          </div>
-
-          <div class="tab-contents" id="achievement">
-            <ul>
-              <li><span>LeetCode</span><br>230+ Questions Solved</li>
-              <li><span>HackerRank</span><br>4* Problem Solver</li>
-            </ul>
-          </div>
-          <div class="tab-contents" id="education">
-            <ul>
-              <li><span>2017</span><br>Saint Joseph's School, Banka, ICSE</li>
-              <li><span>2019</span><br>DAV Public School, Bokaro, CBSE</li>
-              <li><span>2020-2024</span><br>Btech in IT, Kalinga Institute Of Industrial Technology, Bhubaneswar</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- --------------SERVICES-------------- -->
-
-  <div id="services">
-    <div class="container">
-      <h2 class="sub-title">My Services</h2>
-      <div class="services-list">
-
-        <div>
-          <i class="fa-solid fa-code"></i>
-          <h3>Front-End Web Development</h3>
-          <p>Developing the interface for seemless user interaction using bootstrap and react.js as tech stack</p>
-          <a href="#">Learn more</a>
-        </div>
-        <div>
-          <i class="fa-solid fa-server"></i>
-          <h3>Back-End Web Development</h3>
-          <p>Upcoming...</p>
-          <a href="#">learn more</a>
-        </div>
-        <div>
-          <i class="fa-solid fa-chalkboard-user"></i>
-          <h3>Other Services</h3>
-          <p>Upcoming...</p>
-          <a href="#">learn more</a>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- --------------PROJECTS-------------- -->
-
-  <div id="project">
-
-    <div class="container">
-
-      <h2 class="sub-title">My Projects</h2>
-
-      <div class="work-list">
-
-        <div class="work">
-          <img src="images/work-1.png" alt="error loading image">
-
-          <div class="layer">
-
-            <h3>Youtube Clone</h3>
-            <p>This is a clone of youtube made using pure html and css with flexbox concept and contains only user
-              interface.</p>
-            <a target="_blank" href="https://git-adityajha.github.io/Youtube-Clone/">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-
-          </div>
-
-        </div>
-
-        <div class="work">
-
-          <img src="images/work-2.png" alt="error loading image">
-
-          <div class="layer">
-            <h3>Snake Game</h3>
-            <p>This is a typical snake game made using html, css and javascript.</p>
-            <a target="_blank" href="#">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="work">
-
-          <img src="images/work-3.png" alt="error loading image">
-          <div class="layer">
-            <h3>Drum Kit</h3>
-            <p>This has an interface of drum buttons which can be used as a drum kit, made using html, css and
-              javascript.</p>
-            <a target="_blank" href="https://git-adityajha.github.io/Drum-Kit/">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-
-      <a href="#" class="btn">See More</a>
-    </div>
-
-  </div>
-
-  <!-- --------------CONTACTS-------------- -->
-
-  <div id="contact">
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="contact-left">
-
-          <h3 class="sub-title">Contact Me</h3>
-
-          <p><i class="fa-solid fa-paper-plane"></i>adityakrjha111@gmail.com</p>
-          <p><i class="fa-solid fa-square-phone"></i>8360690119</p>
-
-          <div class="social-icons">
-            <a target="_blank" href="https://www.instagram.com/aditya_kr_jha/"><i
-                class="fa-brands fa-instagram"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/aditya-jha-5811b91b9/"><i
-                class="fa-brands fa-linkedin"></i></a>
-            <a target="_blank" href="https://github.com/git-AdityaJha"><i class="fa-brands fa-github"></i></a>
-            <a target="_blank" href="https://twitter.com/AdityaJha__"><i class="fa-brands fa-twitter"></i></a>
-            <a target="_blank" href="https://leetcode.com/AdityaJha__/"><i class="fa-solid fa-code"></i></a>
-          </div>
-
-          <a href="images/Resume_AdityaJha.pdf" download="" class="btn btnCV">Download CV</a>
-
-        </div>
-
-        <div class="contact-right">
-
-          <form name="submit-to-google-sheet">
-            <input type="text" name="Name" placeholder="Your Name" required>
-            <input type="email" name="Email" placeholder="Your Email" required>
-            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-            <button class="btn btnCV" type="submit">Submit</button>
-          </form>
-
-          <span id="msg">
-            <!-- msg sent success -->
-          </span>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="copyright">
-      <p>Copyright © Adi</p>
-    </div>
-
-  </div>
-
-  <script src="index.js"></script>
-</body>
-
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwFDSuWV8zyqTpcaOE0o2753os2mjisKTNxyInfLef0Q-4rMOkHLXWNMuDjvNr673mj/exec'
-  const form = document.forms['submit-to-google-sheet']
-
-  const msg = document.getElementById("msg");
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerHTML = "✅ Message sent successfully "
-        setTimeout(function(){
-          msg.innerHTML = ""
-        },5000)
-        form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-
+    <script src="index.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
 </html>

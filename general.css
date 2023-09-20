@@ -1,0 +1,43 @@
+/* ----------MAIN----------- */
+
+/* ----------MAIN---------- */
+
+
+/* ---------GENERAL---------- */
+
+.btn{
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem 1.8rem;
+  border: 1px solid #4d97eb;
+  background-color: #4d97eb;
+  border-radius: 5px;
+  transition: .3s;
+  font-size: 1.5rem;
+}
+
+.btn:hover{
+  color: #4d97eb;
+  border: 1px solid #4d97eb;
+  background-color: transparent;
+}
+
+/* --------------------------- */
+
+.title h2{
+  font-size: 3rem;
+  align-items: center;
+  padding-top: 0;
+}
+
+.title{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.verticle-line{
+  margin-right: 8px;
+  color: #4d97eb;
+  transform: scale(1.5);
+  font-weight: 900;
+}
